@@ -29,7 +29,7 @@ public class Main extends ApplicationAdapter {
     @Override
     public void create() {
         shape = new ShapeRenderer();
-        scl = 10; //////// INCREASE THIS NUMBER TO MAKE THE MAZE SMALLER
+        scl = 10; /////// INCREASE THIS NUMBER TO MAKE THE MAZE SMALLER
         rows = fWidth / scl;
         cols = fHeight / scl;
         Grid = createGrid();
